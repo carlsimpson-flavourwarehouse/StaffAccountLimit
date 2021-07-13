@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <flavourwarehouse_staffaccountlimit>
+            <enable>
+                <enable>1</enable>
+            </enable>
+
+            <spend_limit>
+                <spend>500</spend>
+            </spend_limit>
+
+            <custom>
+                <customer_group_list>4</customer_group_list>
+            </custom>
+
+        </flavourwarehouse_staffaccountlimit>
+    </default>
+</config>
