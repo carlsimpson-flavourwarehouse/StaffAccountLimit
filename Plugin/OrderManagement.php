@@ -27,8 +27,10 @@ class OrderManagement
     ): array {
         $quoteId = $order->getQuoteId();
         if ($quoteId) {
-            // your logic
-            console.log('this');
+
+            echo '<script language="javascript">';
+            echo 'alert("message successfully sent")';
+            echo '</script>';
 
         }
         return [$order];
